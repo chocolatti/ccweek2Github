@@ -8,8 +8,6 @@ images.forEach(function (image) {
 });
 
 function toggleInfo() {
-
     const info = document.getElementById ("director-moreinformation");
     info.classList.toggle("show");
-
 }

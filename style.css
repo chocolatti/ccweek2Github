@@ -64,8 +64,6 @@ body {
     left: 10px;
 }
 
-
-
 img {
     cursor: pointer;
     transition: transform 0.4s, box-shadow 0.4s;
@@ -320,4 +318,20 @@ iframe {
 .play-button:hover {
     transform: scale(1.1);
     background: #555;
+}
+
+.music-box {
+    width: 70%;
+    margin: 50px auto;
+    padding: 30px;
+    background: #67c5a1;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+
+.music-box iframe {
+    display: block;
+    margin: 0 auto;
 }

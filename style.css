@@ -64,6 +64,38 @@ body {
     left: 10px;
 }
 
+#udon {
+    /* position: absolute; */
+    position: relative;
+    width: 350px;
+    top: 20px;
+    left: 10px;
+}
+
+#Christine {
+    /* position: absolute; */
+    position: relative;
+    width: 350px;
+    top: 20px;
+    left: 10px;
+}
+
+#spindles {
+    /* position: absolute; */
+    position: relative;
+    width: 350px;
+    top: 20px;
+    left: 10px;
+}
+
+#gelato {
+    /* position: absolute; */
+    position: relative;
+    width: 350px;
+    top: 20px;
+    left: 10px;
+}
+
 img {
     cursor: pointer;
     transition: transform 0.4s, box-shadow 0.4s;
@@ -334,4 +366,15 @@ iframe {
 .music-box iframe {
     display: block;
     margin: 0 auto;
+}
+
+.Spindles-info {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 50px auto;
+}
+
+.dessert-entry {
+    text-align: center;
 }
